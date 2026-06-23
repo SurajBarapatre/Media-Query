@@ -10,8 +10,8 @@ body{
 }
 
 .box{
-    width: 200px;
-    height: 200px;
+    /*width: 200px;
+    height: 200px;*/
     padding: 7px;
     margin: 7px;
     background-color: rgb(230, 88, 41);
@@ -24,26 +24,91 @@ body{
 }
 
 .col{
+    width: 100%;
+}
+
+.col-2 {
+    width: 50%;
+}
+.col-3 {
+    width: 33.33%;
+}
+.col-4 {
+    width: 25%;
+}
+.col-5 {
     width: 20%;
 }
 
-.justify-center{
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
     justify-content: center;
 }
-
-.justify-space-evenly{
+.justify-start {
+    justify-content: start;
+}
+.justify-end {
+    justify-content: end;
+}
+.justify-evenly {
     justify-content: space-evenly;
 }
+.justify-between {
+    justify-content: space-between;
+}
 
+.m-1 {
+    margin: 4px;
+}
+
+.m-2 {
+    margin: 8px;
+}
+
+.mh-3 {
+    margin: 0px 10px;
+}
+
+.mv-4 {
+    max-width: 8px 0px;
+}
+
+.p-1 {
+    padding: 4px;
+}
+
+.p-2 {
+    padding: 8px;
+}
+
+.ph-1 {
+    padding: 0px 4px;
+}
+.ph-2 {
+    padding: 0px 8px;
+}
+.pv {
+    padding: 8px 0px;
+}
 .container-box{
     width: 1320px;
 }
-
 
 .container-parent{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+nav {
+    background-color: rgb(251, 244, 234);
+}
+
+nav a {
+    text-decoration: none;
 }
 
 
