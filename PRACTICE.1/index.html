@@ -1,31 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portpolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suraj Barapatre | Portfolio</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-parent">
-    <nav class="container d-flex justify-between p-2">
-            <h2 class="col">Portfolio <span>.</span></h2>
-            <div class="col-2 d-flex justify-end ">
-                <a class="ph-2" href="#">About</a>
-                <a class="ph-2" href="#">Education</a>
-                <a class="ph-2" href="#">Skills</a>
-                <a class="ph-2" href="#">Experience</a>
-                <a class="ph-2" href="#">Projects</a>
-            </div>
+
+<header>
+    <div class="container">
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-        <div class="container-parent">
-            <div>
-                <img height="250px" width="250px" src="image.1(1).png" alt=""></div>
-            <div>
-            </div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container hero-content">
+
+        <div class="hero-image">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
         </div>
+
+        <div class="hero-text">
+            <h1>Suraj Barapatre</h1>
+            <h3>Full Stack Web Developer</h3>
+
+            <p>
+            My Self Suraj S.Barapatre. 
+			I am currently learning <b>Full Stack Web Development course</b> and I am passionate about coding and learning new technologies.
+			I enjoy building websites and applications and I always try to improve my skills by practicing regularly.
+			I am hardworking, dedicated, and excited to start my career in the IT field.
+			My goal is to become a successful full stack Web developer and work on real-world projects that create value for people.Passionate Full Stack Developer with knowledge of
+            HTML, CSS, JavaScript, React, Node.js and Database
+            technologies. I love building responsive and modern
+            web applications.
+            </p>
+
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+
     </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="title">About Me</h2>
+
+        <p>
+    I am currently learning Full Stack Web Development and
+    continuously improving my frontend and backend skills.
+    My goal is to become a professional software developer
+    and work on real-world projects.
+    On the front-end side, I specialize in <b>HTML, CSS, and JavaScript</b> frameworks such as React and Angular. 
+	I am passionate about creating intuitive user interfaces that provide an exceptional user experience. 
+	I pay great attention to detail, ensuring that the websites or applications.
+	I develop are responsive, visually appealing, and accessible across different devices and browsers.
+	Moving to the back end, I am proficient in server-side languages like <b>Python, Java, or Node.js.</b> 
+    I have extensive experience working with databases such as MySQL, PostgreSQL, and MongoDB, and I can design efficient database structures and write optimized queries. 
+	I am familiar with Restful APIs and know how to integrate them into applications to enable seamless communication between the front end and back end.
+        </p>
     </div>
+</section>
+
+<section id="education" class="section gray">
+    <div class="container">
+
+        <h2 class="title">Education</h2>
+
+        <div class="card">
+            <h3>Bachelor Degree</h3>
+            <p>Computer Science</p>
+            <p>2025</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <div class="container">
+
+        <h2 class="title">Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h4>HTML5</h4>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h4>CSS3</h4>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h4>JavaScript</h4>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h4>React</h4>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-node-js"></i>
+                <h4>Node JS</h4>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h4>Database</h4>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="projects" class="section gray">
+    <div class="container">
+
+        <h2 class="title">Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project">
+                <h3>Amazon Prime Clone</h3>
+                <p>HTML & CSS Project</p>
+            </div>
+
+            <div class="project">
+                <h3>Netflix Clone</h3>
+                <p>Responsive Design</p>
+            </div>
+
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>Modern Personal Portfolio</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+
+        <h2 class="title">Contact</h2>
+
+        <div class="contact-box">
+            <p><i class="fas fa-envelope"></i> surajbarapatre007.edu@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +91 7874692196</p>
+            <p><i class="fas fa-map-marker-alt"></i> Gujarat, India</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Suraj Barapatre | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
