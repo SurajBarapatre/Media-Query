@@ -70,11 +70,12 @@ nav ul li a{
 
 .hero-text h1{
     font-size:55px;
+    color: #333;
 }
 
 .hero-text h3{
     margin:10px 0;
-    color: azure;
+    color: rgb(121, 79, 2);
 }
 
 .hero-text p{
@@ -86,17 +87,18 @@ nav ul li a{
     margin-top:20px;
     padding:12px 30px;
     background:white;
-    color:#0d6efd;
+    color:#0a3678;
     text-decoration:none;
-    border-radius:5px;
+    border-radius:8px;
 }
 
 .section{
     padding:70px 0;
+    background-color: rgb(198, 210, 91);
 }
 
 .gray{
-    background:#eef2f7;
+    background:#5276a15b;
 }
 
 .title{
@@ -106,6 +108,7 @@ nav ul li a{
 
 .card{
     background:white;
+    margin: 10px;
     padding:30px;
     border-radius:10px;
     text-align:center;
