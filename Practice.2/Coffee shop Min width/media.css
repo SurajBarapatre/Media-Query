@@ -81,9 +81,6 @@
             }
         }
 
-        /* ------------------------------------ */
-        /* XL-WIDE MONITOR BREAKPOINT           */
-        /* ------------------------------------ */
         @media (min-width: 1400px) {
             .navbar, .hero, .categories, .shakes, .blogs, footer {
                 padding-left: 12rem;
