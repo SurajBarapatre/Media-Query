@@ -10,9 +10,6 @@
             }
         }
 
-        /* ------------------------------------ */
-        /* MD-TABLET & LANDSCAPE BREAKPOINT     */
-        /* ------------------------------------ */
         @media (min-width: 768px) {
             .navbar {
                 padding: 1.5rem 3rem;
@@ -55,9 +52,6 @@
             }
         }
 
-        /* ------------------------------------ */
-        /* LG-DESKTOP BREAKPOINT                */
-        /* ------------------------------------ */
         @media (min-width: 1024px) {
             .navbar {
                 padding: 2rem 6rem;
