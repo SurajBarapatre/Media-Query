@@ -285,9 +285,6 @@
             color: var(--text-dark);
         }
 
-        /* ------------------------------------ */
-        /* FOOTER SECTION                       */
-        /* ------------------------------------ */
         footer {
             background-color: var(--bg-dark);
             color: #fcfcfc;
