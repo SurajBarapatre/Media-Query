@@ -1,197 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Coffee Shop</title>
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-  rel="stylesheet"/>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Corner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#hero-section">
+        <span class="brand-icon"><i class="fa-solid fa-mug-hot"></i></span>
+        <span class="brand-text">Coffee Corner</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero-section">Home</a></li>
+        <li><a href="#top-categories">Menu</a></li>
+        <li><a href="#latest-blogs">Blog</a></li>
+        <li><a href="#milk-shakes">Media</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+      <button class="icon-button" aria-label="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </nav>
+  </header>
 
-    <header class="navbar">
-        <div class="logo">
-            <i class="ri-java-line"></i> Coffy Solutions
-        </div>
-        <nav class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Menu</a>
-            <a href="#">Blog</a>
-            <a href="#">Media</a>
-            <a href="#">Contact</a>
-        </nav>
-        <div class="nav-icons">
-            <i class="ri-search-line"></i>
-        </div>
-    </header>
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <p class="hero-tag"></p>
+        <h1></h1>
+        
+      <div class="hero-image">
+        <img src="/Asset/hero bg.png" width="1500">
+        <button class="primary-button">Shop now</button>
+      </div>
+    </div>
+        </section>
 
-    <section class="hero">
-        <div class="hero-content">
-        </div>
-        <div class="hero-image-container">
-       </div>
+    <section id="top-categories" class="section">
+      <div class="section-header">
+        <h2>Top Categories</h2>
+        <p>Explore the bestselling cups that define this week.</p>
+      </div>
+      <div class="category-grid">
+        <article class="category-card" style="background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80');">
+          <div class="category-overlay">
+            <h3>Coffee Mocha</h3>
+            <button class="ghost-button">View more</button>
+          </div>
+        </article>
+        <article class="category-card" style="background-image: url('https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=800&q=80');">
+          <div class="category-overlay">
+            <h3>Espresso Americano</h3>
+            <button class="ghost-button">View more</button>
+          </div>
+        </article>
+        <article class="category-card" style="background-image: url('https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80');">
+          <div class="category-overlay">
+            <h3>Cappuccino</h3>
+            <button class="ghost-button">View more</button>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section class="categories">
-        <div class="section-header">
-            <h2>Top Categories</h2>
-            <p>Explore The Recent Most Bought Drinks This Week</p>
-        </div>
-        <div class="categories-grid">
-            <div class="category-card">
-                <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&q=80&w=500" alt="Coffee Mocha">
-                <div class="category-overlay">
-                    <h3>Coffee Mocha</h3>
-                    <span>View More</span>
-                </div>
-            </div>
-            <div class="category-card">
-                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=500" alt="Espresso Americano">
-                <div class="category-overlay">
-                    <h3>Espresso Americano</h3>
-                    <span>View More</span>
-                </div>
-            </div>
-            <div class="category-card">
-                <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&q=80&w=500" alt="Cappuccino">
-                <div class="category-overlay">
-                    <h3>Cappuccino</h3>
-                    <span>View More</span>
-                </div>
-            </div>
-        </div>
+    <section id="milk-shakes" class="section">
+      <div class="section-header">
+        <h2>Top Milk Shakes</h2>
+        <p>Indulge in the creamiest coffee shakes this week.</p>
+      </div>
+      <div class="shake-grid">
+        <article class="shake-card">
+          <span class="badge">30 Likes</span>
+          <img src="https://images.unsplash.com/photo-1481391032119-d89fee407e44?auto=format&fit=crop&w=600&q=80" alt="Mocha shake" />
+          <h3>Mocha Shake</h3>
+          <div class="shake-meta">
+            <span class="price">$20.00</span>
+            <button class="primary-button small">Buy now</button>
+          </div>
+        </article>
+        <article class="shake-card">
+          <span class="badge">32 Likes</span>
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80" alt="Lavender shake" />
+          <h3>Lavender Shake</h3>
+          <div class="shake-meta">
+            <span class="price">$20.00</span>
+            <button class="primary-button small">Buy now</button>
+          </div>
+        </article>
+        <article class="shake-card">
+          <span class="badge">28 Likes</span>
+          <img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=600&q=80" alt="Caramel shake" />
+          <h3>Caramel Shake</h3>
+          <div class="shake-meta">
+            <span class="price">$20.00</span>
+            <button class="primary-button small">Buy now</button>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section class="shakes">
-        <div class="section-header">
-            <h2>Top Milk Shakes</h2>
-            <p>Explore The Recent Most Bought Shakes This Week</p>
-        </div>
-        <div class="shakes-grid">
-            <div class="shake-card">
-                <div class="like-badge"><i class="ri-thumb-up-fill"></i> 30 Likes</div>
-                <img src="/Asset/shake-4.png" alt="Mocha Shake" class="shake-img">
-                <h3>Mocha Shake</h3>
-                <div class="shake-footer">
-                    <span class="shake-price">$20.00</span>
-                    <button class="btn-buy">Buy Now</button>
-                </div>
-            </div>
-            <div class="shake-card">
-                <div class="like-badge"><i class="ri-thumb-up-fill"></i> 32 Likes</div>
-                <img src="/Asset/shake-5.png" alt="Lavender Shake" class="shake-img">
-                <h3>Lavender Shake</h3>
-                <div class="shake-footer">
-                    <span class="shake-price">$20.00</span>
-                    <button class="btn-buy">Buy Now</button>
-                </div>
-            </div>
-            <div class="shake-card">
-                <div class="like-badge"><i class="ri-thumb-up-fill"></i> 30 Likes</div>
-                <img src="/Asset/shake-2.png" alt="Caramel Shake" class="shake-img">
-                <h3>Caramel Shake</h3>
-                <div class="shake-footer">
-                    <span class="shake-price">$20.00</span>
-                    <button class="btn-buy">Buy Now</button>
-                </div>
-            </div>
-        </div>
+    <section id="latest-blogs" class="section">
+      <div class="section-header">
+        <h2>Latest Blogs</h2>
+        <p>Explore the freshest stories from our coffee community.</p>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Coffee connoisseurs" />
+          <div class="blog-content">
+            <h3>Coffee Connoisseur</h3>
+            <p>Discover brewing rituals and bean profiles curated by seasoned roasters and baristas.</p>
+            <a href="#" class="text-link">Read more</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?auto=format&fit=crop&w=800&q=80" alt="Cafe interior" />
+          <div class="blog-content">
+            <h3>Coffee Connoisseur</h3>
+            <p>Step inside our café culture and see how ambiance shapes the perfect cup.</p>
+            <a href="#" class="text-link">Read more</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Barista preparing coffee" />
+          <div class="blog-content">
+            <h3>Coffee Connoisseur</h3>
+            <p>Meet the artisans behind the espresso bar and their signature techniques.</p>
+            <a href="#" class="text-link">Read more</a>
+          </div>
+        </article>
+      </div>
     </section>
+  </main>
 
-    <section class="blogs">
-        <div class="section-header">
-            <h2>Latest Blogs</h2>
-            <p>Explore Our Recent Stories and Coffee Guides</p>
+  <footer id="footer" class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h4>Products</h4>
+        <ul>
+          <li>Signature Beans</li>
+          <li>Cold Brew</li>
+          <li>Seasonal Drinks</li>
+          <li>Accessories</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Category</h4>
+        <ul>
+          <li>Espresso</li>
+          <li>Latte</li>
+          <li>Milk Shakes</li>
+          <li>Desserts</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company Info</h4>
+        <ul>
+          <li>About Us</li>
+          <li>Our Story</li>
+          <li>Store Locator</li>
+          <li>FAQs</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow us</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
         </div>
-        <div class="blogs-grid">
-            <div class="blog-card">
-                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=500" alt="Coffee Connoisseur Culture" class="blog-img">
-                <div class="blog-content">
-                    <h3>Coffee Connoisseur</h3>
-                    <p>In the heart of coffee cultures lies an art hidden from the casual eye. Explore the depths of sourcing beans perfectly.</p>
-                    <a href="#" class="btn-readmore">Read More</a>
-                </div>
-            </div>
-            <div class="blog-card">
-                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=500" alt="Roasting Practices" class="blog-img">
-                <div class="blog-content">
-                    <h3>Coffee Connoisseur</h3>
-                    <p>In the heart of coffee cultures lies an art hidden from the casual eye. Explore the depths of sourcing beans perfectly.</p>
-                    <a href="#" class="btn-readmore">Read More</a>
-                </div>
-            </div>
-            <div class="blog-card">
-                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&q=80&w=500" alt="Tasting Guides" class="blog-img">
-                <div class="blog-content">
-                    <h3>Coffee Connoisseur</h3>
-                    <p>In the heart of coffee cultures lies an art hidden from the casual eye. Explore the depths of sourcing beans perfectly.</p>
-                    <a href="#" class="btn-readmore">Read More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-col">
-                <h4>Products</h4>
-                <ul>
-                    <li><a href="#">Whole Beans</a></li>
-                    <li><a href="#">Espresso Equipment</a></li>
-                    <li><a href="#">Cold Brew Kits</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Category</h4>
-                <ul>
-                    <li><a href="#">Hot Coffees</a></li>
-                    <li><a href="#">New Arrivals</a></li>
-                    <li><a href="#">Weekly Specials</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Company Info</h4>
-                <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Payment Options</a></li>
-                    <li><a href="#">Track Order</a></li>
-                    <li><a href="#">Support</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Follow us</h4>
-                <div class="social-links">
-                    <a href="#"><i class="ri-instagram-line"></i> Instagram</a>
-                    <a href="#"><i class="ri-facebook-circle-fill"></i> Facebook</a>
-                    <a href="#"><i class="ri-youtube-fill"></i>Youtube</a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="footer-links">
-                <a href="#">Data settings</a> | 
-                <a href="#">Cookie settings</a> | 
-                <a href="#">Privacy Policy</a> | 
-                <a href="#">Terms and Conditions</a> | 
-                <a href="#">Imprint</a>
-            </div>
-        </div>
-    </footer>
-
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Data settings</span>
+      <span>Cookie settings</span>
+      <span>Privacy policy</span>
+    </div>
+  </footer>
 </body>
-
 </html>
